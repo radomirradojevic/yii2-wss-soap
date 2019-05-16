@@ -12,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require radomirradojevic/yii2-wss-soap "*"
+php composer.phar require radomirradojevic/yii2-wss-soap "1.0"
 ```
 
 or add
 
 ```json
-"radomirradojevic/yii2-wss-soap": "*"
+"radomirradojevic/yii2-wss-soap": "1.0"
 ```
 
 to the require section of your composer.json.
