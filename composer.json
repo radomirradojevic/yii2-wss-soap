@@ -4,7 +4,7 @@
   "keywords": ["yii2-wss", "soap", "component"],
   "type": "yii2-extension",
   "minimum-stability": "stable",
-  "license": "MIT License",
+  "license": "MIT",
   "authors": [
     {
       "name": "Radomir Radojevic",
