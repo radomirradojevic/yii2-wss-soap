@@ -1,0 +1,21 @@
+{
+  "name": "radomirradojevic/yii2-wss-soap",
+  "description": "Yii2 wrapper for default SoapClient",
+  "keywords": ["yii2-wss", "soap", "component"],
+  "type": "yii2-extension",
+  "minimum-stability": "stable",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Radomir Radojevic",
+      "email": "radomir.radojevic@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-soap": "*",
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": { "radomirradojevic\\soap\\": "src\\" }
+  }
+}
