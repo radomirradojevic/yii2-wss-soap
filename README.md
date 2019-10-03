@@ -12,7 +12,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require radomirradojevic/yii2-wss-soap "1.0"
+composer require radomirradojevic/yii2-wss-soap "1.0"
 ```
 
 or add
@@ -43,8 +43,8 @@ You need add this extension in your config file in the 'components' section
             $headers = new stdClass();
             $headers->authDetails = new stdClass(); // This is node in SOAP Header where the login and password.
 			$headers->authDetails->wss_ns = 'http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd';
-            $headers->authDetails->login = 'LOGIN';
-            $headers->authDetails->password = 'PASSWORD';
+            $headers->authDetails->login = '<LOGIN>';
+            $headers->authDetails->password = '<PASSWORD>';
             return $headers;
         }
     ],
